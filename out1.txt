@@ -1,0 +1,389 @@
+          Name     Type1  ... Enhanced By Weather  Good For Mewtwo Raid
+0      Machamp  Fighting  ...              Cloudy                    No
+1      Snorlax    Normal  ...               Sunny                    No
+2    Tyranitar      Rock  ...               Sunny                   Yes
+3       Gengar     Ghost  ...              Cloudy                   Yes
+4     Alakazam   Psychic  ...               Sunny                    No
+5     Rayquaza    Dragon  ...               Windy                   Yes
+6     Venusaur     Grass  ...               Rainy                    No
+7    Charizard      Fire  ...               Sunny                    No
+8    Gardevoir   Psychic  ...               Rainy                   Yes
+9   Krookodile    Ground  ...               Sunny                   Yes
+10      Scizor       Bug  ...               Rainy                   Yes
+11     Weavile      Dark  ...               Rainy                   Yes
+12   Honchkrow      Dark  ...               Windy                   Yes
+13    Blaziken      Fire  ...               Sunny                    No
+14    Swampert     Water  ...               Rainy                    No
+15   Salamence    Dragon  ...               Windy                    No
+16   Hydreigon    Dragon  ...               Windy                   Yes
+17   Metagross     Steel  ...              Cloudy                    No
+18     Lucario  Fighting  ...              Cloudy                    No
+19     Banette      Dark  ...              Cloudy                   Yes
+
+[20 rows x 10 columns]
+
+--- Predicting for Pokemon: Garchomp ---
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'Yes': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Dragon':  matches->2 classcounts->10 +13 0.13043478260869565
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Ground':  matches->0 classcounts->10 +11 0.047619047619047616
+600, mean ->298.3, stddev->44.966777860005834
+600, mean ->298.3, stddev->44.966777860005834
+Likelihood for 'Attack' (Gaussian): 1.489066305246499e-12
+250, mean ->192.4, stddev->52.15191484712927
+250, mean ->192.4, stddev->52.15191484712927
+Likelihood for 'Defense' (Gaussian): 0.0041567504608268505
+272, mean ->193.4, stddev->29.661797353198647
+272, mean ->193.4, stddev->29.661797353198647
+Likelihood for 'Stamina' (Gaussian): 0.0004017372509622701
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'Yes':  matches->3 classcounts->10 +2 0.3333333333333333
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->4 classcounts->10 +2 0.4166666666666667
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Rainy':  matches->3 classcounts->10 +4 0.2857142857142857
+Posterior probability for 'Yes': 3.0644580531231284e-22
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'No': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Dragon':  matches->1 classcounts->10 +13 0.08695652173913043
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Ground':  matches->1 classcounts->10 +11 0.09523809523809523
+600, mean ->283.4, stddev->55.47011207247857
+600, mean ->283.4, stddev->55.47011207247857
+Likelihood for 'Attack' (Gaussian): 6.066876157869008e-10
+250, mean ->198.0, stddev->36.751417206233924
+250, mean ->198.0, stddev->36.751417206233924
+Likelihood for 'Defense' (Gaussian): 0.003989447661413964
+272, mean ->207.8, stddev->48.95984749431586
+272, mean ->207.8, stddev->48.95984749431586
+Likelihood for 'Stamina' (Gaussian): 0.003449021082348852
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'Yes':  matches->4 classcounts->10 +2 0.4166666666666667
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->5 classcounts->10 +2 0.5
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Rainy':  matches->2 classcounts->10 +4 0.21428571428571427
+Posterior probability for 'No': 1.543151613552801e-18
+Garchomp
+infavor ->3.0644580531231284e-22, against -> 1.543151613552801e-18
+Bad Pick
+
+--- Predicting for Pokemon: Beedril ---
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'Yes': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Bug':  matches->1 classcounts->10 +13 0.08695652173913043
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Poison':  matches->1 classcounts->10 +11 0.09523809523809523
+367, mean ->298.3, stddev->44.966777860005834
+367, mean ->298.3, stddev->44.966777860005834
+Likelihood for 'Attack' (Gaussian): 0.002761612206360595
+185, mean ->192.4, stddev->52.15191484712927
+185, mean ->192.4, stddev->52.15191484712927
+Likelihood for 'Defense' (Gaussian): 0.0075729978975363835
+140, mean ->193.4, stddev->29.661797353198647
+140, mean ->193.4, stddev->29.661797353198647
+Likelihood for 'Stamina' (Gaussian): 0.002660262724978547
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'Yes':  matches->3 classcounts->10 +2 0.3333333333333333
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->4 classcounts->10 +2 0.4166666666666667
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Sunny':  matches->2 classcounts->10 +4 0.21428571428571427
+Posterior probability for 'Yes': 6.856439475216021e-12
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'No': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Bug':  matches->0 classcounts->10 +13 0.043478260869565216
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Poison':  matches->1 classcounts->10 +11 0.09523809523809523
+367, mean ->283.4, stddev->55.47011207247857
+367, mean ->283.4, stddev->55.47011207247857
+Likelihood for 'Attack' (Gaussian): 0.002310052327721339
+185, mean ->198.0, stddev->36.751417206233924
+185, mean ->198.0, stddev->36.751417206233924
+Likelihood for 'Defense' (Gaussian): 0.010196843988298706
+140, mean ->207.8, stddev->48.95984749431586
+140, mean ->207.8, stddev->48.95984749431586
+Likelihood for 'Stamina' (Gaussian): 0.0031235472605123694
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'Yes':  matches->4 classcounts->10 +2 0.4166666666666667
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->5 classcounts->10 +2 0.5
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Sunny':  matches->4 classcounts->10 +4 0.35714285714285715
+Posterior probability for 'No': 1.1334158307860288e-11
+Beedril
+infavor ->6.856439475216021e-12, against -> 1.1334158307860288e-11
+Bad Pick
+
+--- Predicting for Pokemon: Azumaril ---
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'Yes': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Water':  matches->0 classcounts->10 +13 0.043478260869565216
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Fairy':  matches->1 classcounts->10 +11 0.09523809523809523
+361, mean ->298.3, stddev->44.966777860005834
+361, mean ->298.3, stddev->44.966777860005834
+Likelihood for 'Attack' (Gaussian): 0.003356064676256178
+200, mean ->192.4, stddev->52.15191484712927
+200, mean ->192.4, stddev->52.15191484712927
+Likelihood for 'Defense' (Gaussian): 0.007568822490441629
+180, mean ->193.4, stddev->29.661797353198647
+180, mean ->193.4, stddev->29.661797353198647
+Likelihood for 'Stamina' (Gaussian): 0.012144950300372968
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'No':  matches->7 classcounts->10 +2 0.6666666666666666
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'Yes':  matches->6 classcounts->10 +2 0.5833333333333334
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Rainy':  matches->3 classcounts->10 +4 0.2857142857142857
+Posterior probability for 'Yes': 7.096835577420365e-11
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'No': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Water':  matches->1 classcounts->10 +13 0.08695652173913043
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Fairy':  matches->0 classcounts->10 +11 0.047619047619047616
+361, mean ->283.4, stddev->55.47011207247857
+361, mean ->283.4, stddev->55.47011207247857
+Likelihood for 'Attack' (Gaussian): 0.002703209181851112
+200, mean ->198.0, stddev->36.751417206233924
+200, mean ->198.0, stddev->36.751417206233924
+Likelihood for 'Defense' (Gaussian): 0.01083909176712173
+180, mean ->207.8, stddev->48.95984749431586
+180, mean ->207.8, stddev->48.95984749431586
+Likelihood for 'Stamina' (Gaussian): 0.006935206711892486
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'No':  matches->6 classcounts->10 +2 0.5833333333333334
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'Yes':  matches->5 classcounts->10 +2 0.5
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Rainy':  matches->2 classcounts->10 +4 0.21428571428571427
+Posterior probability for 'No': 2.6294495579273097e-11
+Azumaril
+infavor ->7.096835577420365e-11, against -> 2.6294495579273097e-11
+Good Pick
+
+--- Predicting for Pokemon: Aggron ---
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'Yes': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Steel':  matches->0 classcounts->10 +13 0.043478260869565216
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Rock':  matches->0 classcounts->10 +11 0.047619047619047616
+366, mean ->298.3, stddev->44.966777860005834
+366, mean ->298.3, stddev->44.966777860005834
+Likelihood for 'Attack' (Gaussian): 0.002856346720352698
+210, mean ->192.4, stddev->52.15191484712927
+210, mean ->192.4, stddev->52.15191484712927
+Likelihood for 'Defense' (Gaussian): 0.007226182934678002
+228, mean ->193.4, stddev->29.661797353198647
+228, mean ->193.4, stddev->29.661797353198647
+Likelihood for 'Stamina' (Gaussian): 0.006811516782482666
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'Yes':  matches->3 classcounts->10 +2 0.3333333333333333
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->4 classcounts->10 +2 0.4166666666666667
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Sunny':  matches->2 classcounts->10 +4 0.21428571428571427
+Posterior probability for 'Yes': 4.3315896018633555e-12
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'No': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Steel':  matches->1 classcounts->10 +13 0.08695652173913043
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Rock':  matches->0 classcounts->10 +11 0.047619047619047616
+366, mean ->283.4, stddev->55.47011207247857
+366, mean ->283.4, stddev->55.47011207247857
+Likelihood for 'Attack' (Gaussian): 0.0023732909701620693
+210, mean ->198.0, stddev->36.751417206233924
+210, mean ->198.0, stddev->36.751417206233924
+Likelihood for 'Defense' (Gaussian): 0.010291650634966098
+228, mean ->207.8, stddev->48.95984749431586
+228, mean ->207.8, stddev->48.95984749431586
+Likelihood for 'Stamina' (Gaussian): 0.007483524440734066
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'Yes':  matches->4 classcounts->10 +2 0.4166666666666667
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->5 classcounts->10 +2 0.5
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Sunny':  matches->4 classcounts->10 +4 0.35714285714285715
+Posterior probability for 'No': 2.8157610932732203e-11
+Aggron
+infavor ->4.3315896018633555e-12, against -> 2.8157610932732203e-11
+Bad Pick
+
+--- Predicting for Pokemon: Rapidash ---
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'Yes': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Psychic':  matches->1 classcounts->10 +13 0.08695652173913043
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Fairy':  matches->1 classcounts->10 +11 0.09523809523809523
+207, mean ->298.3, stddev->44.966777860005834
+207, mean ->298.3, stddev->44.966777860005834
+Likelihood for 'Attack' (Gaussian): 0.0011293648121805092
+162, mean ->192.4, stddev->52.15191484712927
+162, mean ->192.4, stddev->52.15191484712927
+Likelihood for 'Defense' (Gaussian): 0.00645440207233108
+163, mean ->193.4, stddev->29.661797353198647
+163, mean ->193.4, stddev->29.661797353198647
+Likelihood for 'Stamina' (Gaussian): 0.00795467497377361
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'No':  matches->7 classcounts->10 +2 0.6666666666666666
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->4 classcounts->10 +2 0.4166666666666667
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Windy':  matches->3 classcounts->10 +4 0.2857142857142857
+Posterior probability for 'Yes': 1.905570527425962e-11
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'No': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Psychic':  matches->1 classcounts->10 +13 0.08695652173913043
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Fairy':  matches->0 classcounts->10 +11 0.047619047619047616
+207, mean ->283.4, stddev->55.47011207247857
+207, mean ->283.4, stddev->55.47011207247857
+Likelihood for 'Attack' (Gaussian): 0.002785617446102101
+162, mean ->198.0, stddev->36.751417206233924
+162, mean ->198.0, stddev->36.751417206233924
+Likelihood for 'Defense' (Gaussian): 0.006718580368073876
+163, mean ->207.8, stddev->48.95984749431586
+163, mean ->207.8, stddev->48.95984749431586
+Likelihood for 'Stamina' (Gaussian): 0.005361110904518963
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'No':  matches->6 classcounts->10 +2 0.5833333333333334
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->5 classcounts->10 +2 0.5
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Windy':  matches->1 classcounts->10 +4 0.14285714285714285
+Posterior probability for 'No': 8.655564745975153e-12
+Rapidash
+infavor ->1.905570527425962e-11, against -> 8.655564745975153e-12
+Good Pick
+
+--- Predicting for Pokemon: Hoopa ---
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'Yes': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Dark':  matches->3 classcounts->10 +13 0.17391304347826086
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Psychic':  matches->0 classcounts->10 +11 0.047619047619047616
+311, mean ->298.3, stddev->44.966777860005834
+311, mean ->298.3, stddev->44.966777860005834
+Likelihood for 'Attack' (Gaussian): 0.0085250529915466
+191, mean ->192.4, stddev->52.15191484712927
+191, mean ->192.4, stddev->52.15191484712927
+Likelihood for 'Defense' (Gaussian): 0.007646863236227043
+173, mean ->193.4, stddev->29.661797353198647
+173, mean ->193.4, stddev->29.661797353198647
+Likelihood for 'Stamina' (Gaussian): 0.010616978751301527
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'No':  matches->7 classcounts->10 +2 0.6666666666666666
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->4 classcounts->10 +2 0.4166666666666667
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Windy':  matches->3 classcounts->10 +4 0.2857142857142857
+Posterior probability for 'Yes': 2.274540520577804e-10
+{'No': 10, 'Yes': 10}
+20
+Class prior for 'No': 0.5
+23
+{'Steel', 'Psychic', 'Rock', 'Grass', 'Ghost', 'Water', 'Dragon', 'Dark', 'Fighting', 'Bug', 'Ground', 'Fire', 'Normal'}
+Likelihood for 'Type1' being 'Dark':  matches->0 classcounts->10 +13 0.043478260869565216
+21
+{'Steel', 'Psychic', 'Ghost', 'None', 'Dark', 'Fighting', 'Flying', 'Ground', 'Poison', 'Ice', 'Fairy'}
+Likelihood for 'Type2' being 'Psychic':  matches->1 classcounts->10 +11 0.09523809523809523
+311, mean ->283.4, stddev->55.47011207247857
+311, mean ->283.4, stddev->55.47011207247857
+Likelihood for 'Attack' (Gaussian): 0.006354649844530182
+191, mean ->198.0, stddev->36.751417206233924
+191, mean ->198.0, stddev->36.751417206233924
+Likelihood for 'Defense' (Gaussian): 0.010660025031482523
+173, mean ->207.8, stddev->48.95984749431586
+173, mean ->207.8, stddev->48.95984749431586
+Likelihood for 'Stamina' (Gaussian): 0.006329412871023779
+12
+{'Yes', 'No'}
+Likelihood for 'Is Shadow' being 'No':  matches->6 classcounts->10 +2 0.5833333333333334
+12
+{'Yes', 'No'}
+Likelihood for 'Has Mega Evo' being 'No':  matches->5 classcounts->10 +2 0.5
+14
+{'Windy', 'Sunny', 'Cloudy', 'Rainy'}
+Likelihood for 'Enhanced By Weather' being 'Windy':  matches->1 classcounts->10 +4 0.14285714285714285
+Posterior probability for 'No': 3.6987493583990165e-11
+Hoopa
+infavor ->2.274540520577804e-10, against -> 3.6987493583990165e-11
+Good Pick

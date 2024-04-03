@@ -1,0 +1,656 @@
+Attack 291.85 49.73643692399704 241.11356307600298 340.58643692399704
+Defense 196.2 44.00430600939437 151.1956939906056 239.20430600939437
+Stamina 201.6 40.08464727758523 160.51535272241478 240.6846472775852
+       Type2     Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+1   Fighting      None    Mid     Low     Mid       Yes           No              Cloudy                   No
+2     Normal      None    Low     Mid    High        No           No               Sunny                   No
+3       Rock      Dark    Mid    High     Mid        No          Yes               Sunny                  Yes
+4      Ghost    Poison   High     Mid     Low        No          Yes              Cloudy                  Yes
+5    Psychic      None   High     Mid     Low        No          Yes               Sunny                   No
+6     Dragon    Flying   High     Mid     Mid        No          Yes               Windy                  Yes
+7      Grass    Poison    Low     Mid     Mid       Yes           No               Rainy                   No
+8       Fire    Flying    Mid     Mid     Mid       Yes           No               Sunny                   No
+9    Psychic     Fairy    Mid     Mid     Mid        No          Yes               Rainy                  Yes
+10     Ground      Dark    Mid     Low     Mid       Yes           No               Sunny                  Yes
+11       Bug     Steel    Mid    High     Mid        No          Yes               Rainy                  Yes
+12      Dark       Ice    Mid     Mid     Mid       Yes           No               Rainy                  Yes
+13      Dark    Flying    Mid     Low     Mid       Yes           No               Windy                  Yes
+14      Fire  Fighting    Mid     Mid     Mid        No          Yes               Sunny                   No
+15     Water    Ground    Mid     Mid     Mid        No          Yes               Rainy                   No
+16    Dragon    Flying    Mid    High     Mid        No          Yes               Windy                   No
+17    Dragon      Dark    Mid     Mid     Mid        No           No               Windy                  Yes
+18     Steel   Psychic    Mid    High     Mid        No          Yes              Cloudy                   No
+19  Fighting     Steel    Mid     Mid     Mid       Yes           No              Cloudy                   No
+20      Dark     Ghost    Mid     Mid     Mid        No          Yes              Cloudy                  Yes
+['Type2', 'Type2', 'Attack', 'Defense', 'Stamina', 'Is Shadow', 'Has Mega Evo', 'Enhanced By Weather']
+count 12 / length 23
+subset entropy 1.49999999985573046=-log(0.5)
+count 11 / length 20
+subset entropy 1.9999999997114609=-log(0.5)
+
+Fighting
+proportion -> 1.1 = 2/20 * 
+count 3 / length 2
+subset entropy 0.4426951601859516e-10=-log(1.0)
+
+Normal
+proportion -> 1.05 = 1/20 * 
+count 2 / length 1
+subset entropy 0.4426951601859516e-10=-log(1.0)
+
+Rock
+proportion -> 1.05 = 1/20 * 
+count 2 / length 1
+subset entropy 0.4426951601859516e-10=-log(1.0)
+
+Ghost
+proportion -> 1.05 = 1/20 * 
+count 2 / length 1
+subset entropy 0.4426951601859516e-10=-log(1.0)
+
+Psychic
+proportion -> 1.1 = 2/20 * 
+count 2 / length 2
+subset entropy 1.49999999985573046=-log(0.5)
+count 2 / length 2
+subset entropy 1.9999999997114609=-log(0.5)
+
+Dragon
+proportion -> 1.15 = 3/20 * 
+count 3 / length 3
+subset entropy 1.3899750003365013=-log(0.6666666666666666)
+count 2 / length 3
+subset entropy 1.9182958337659504=-log(0.3333333333333333)
+
+Grass
+proportion -> 1.05 = 1/20 * 
+count 2 / length 1
+subset entropy 0.4426951601859516e-10=-log(1.0)
+
+Fire
+proportion -> 1.1 = 2/20 * 
+count 3 / length 2
+subset entropy 0.4426951601859516e-10=-log(1.0)
+
+Ground
+proportion -> 1.05 = 1/20 * 
+count 2 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Bug
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Dark
+proportion -> 0.15 = 3/20 * 
+count 3 / length 3
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Water
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Steel
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+parent entropy: 0.9999999997114609, weighted entropy: 0.23774437492783645
+
+information gain for attribute Type1: 0.7622556247836245
+
+
+count 10 / length 20
+subset entropy 0.49999999985573046=-log(0.5)
+count 10 / length 20
+subset entropy 0.9999999997114609=-log(0.5)
+
+None
+proportion -> 0.15 = 3/20 * 
+count 3 / length 3
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Dark
+proportion -> 0.15 = 3/20 * 
+count 3 / length 3
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Poison
+proportion -> 0.1 = 2/20 * 
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+Flying
+proportion -> 0.2 = 4/20 * 
+count 2 / length 4
+subset entropy 0.49999999985573046=-log(0.5)
+count 2 / length 4
+subset entropy 0.9999999997114609=-log(0.5)
+
+Fairy
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Steel
+proportion -> 0.1 = 2/20 * 
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+Ice
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Fighting
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Ground
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Psychic
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Ghost
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+parent entropy: 0.9999999997114609, weighted entropy: 0.39999999979802286
+
+information gain for attribute Type2: 0.599999999913438
+
+
+count 10 / length 20
+subset entropy 0.49999999985573046=-log(0.5)
+count 10 / length 20
+subset entropy 0.9999999997114609=-log(0.5)
+
+Mid
+proportion -> 0.75 = 15/20 * 
+count 8 / length 15
+subset entropy 0.4836749841802737=-log(0.5333333333333333)
+count 7 / length 15
+subset entropy 0.9967916316930976=-log(0.4666666666666667)
+
+Low
+proportion -> 0.1 = 2/20 * 
+count 2 / length 2
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+High
+proportion -> 0.15 = 3/20 * 
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+parent entropy: 0.9999999997114609, weighted entropy: 0.8853380988202888
+
+information gain for attribute Attack: 0.11466190089117212
+
+
+count 10 / length 20
+subset entropy 0.49999999985573046=-log(0.5)
+count 10 / length 20
+subset entropy 0.9999999997114609=-log(0.5)
+
+Low
+proportion -> 0.15 = 3/20 * 
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+
+Mid
+proportion -> 0.65 = 13/20 * 
+count 7 / length 13
+subset entropy 0.48089181313145485=-log(0.5384615384615384)
+count 6 / length 13
+subset entropy 0.9957274517963866=-log(0.46153846153846156)
+
+High
+proportion -> 0.2 = 4/20 * 
+count 2 / length 4
+subset entropy 0.49999999985573046=-log(0.5)
+count 2 / length 4
+subset entropy 0.9999999997114609=-log(0.5)
+parent entropy: 0.9999999997114609, weighted entropy: 0.984967218674836
+
+information gain for attribute Defense: 0.015032781036624865
+
+
+count 10 / length 20
+subset entropy 0.49999999985573046=-log(0.5)
+count 10 / length 20
+subset entropy 0.9999999997114609=-log(0.5)
+
+Mid
+proportion -> 0.85 = 17/20 * 
+count 9 / length 17
+subset entropy 0.4857553268129213=-log(0.5294117647058824)
+count 8 / length 17
+subset entropy 0.9975025460805762=-log(0.47058823529411764)
+
+High
+proportion -> 0.05 = 1/20 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Low
+proportion -> 0.1 = 2/20 * 
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+parent entropy: 0.9999999997114609, weighted entropy: 0.9478771641324224
+
+information gain for attribute Stamina: 0.05212283557903852
+
+
+count 10 / length 20
+subset entropy 0.49999999985573046=-log(0.5)
+count 10 / length 20
+subset entropy 0.9999999997114609=-log(0.5)
+
+Yes
+proportion -> 0.35 = 7/20 * 
+count 4 / length 7
+subset entropy 0.4613456696029329=-log(0.5714285714285714)
+count 3 / length 7
+subset entropy 0.9852281357457124=-log(0.42857142857142855)
+
+No
+proportion -> 0.65 = 13/20 * 
+count 7 / length 13
+subset entropy 0.48089181313145485=-log(0.5384615384615384)
+count 6 / length 13
+subset entropy 0.9957274517963866=-log(0.46153846153846156)
+parent entropy: 0.9999999997114609, weighted entropy: 0.9920526911786506
+
+information gain for attribute Is Shadow: 0.007947308532810338
+
+
+count 10 / length 20
+subset entropy 0.49999999985573046=-log(0.5)
+count 10 / length 20
+subset entropy 0.9999999997114609=-log(0.5)
+
+No
+proportion -> 0.45 = 9/20 * 
+count 5 / length 9
+subset entropy 0.47110939238625826=-log(0.5555555555555556)
+count 4 / length 9
+subset entropy 0.9910760595496831=-log(0.4444444444444444)
+
+Yes
+proportion -> 0.55 = 11/20 * 
+count 6 / length 11
+subset entropy 0.47698315508271655=-log(0.5454545454545454)
+count 5 / length 11
+subset entropy 0.9940302111884174=-log(0.45454545454545453)
+parent entropy: 0.9999999997114609, weighted entropy: 0.9927008429509872
+
+information gain for attribute Has Mega Evo: 0.007299156760473768
+
+
+count 10 / length 20
+subset entropy 0.49999999985573046=-log(0.5)
+count 10 / length 20
+subset entropy 0.9999999997114609=-log(0.5)
+
+Cloudy
+proportion -> 0.25 = 5/20 * 
+count 3 / length 5
+subset entropy 0.4421793563554542=-log(0.6)
+count 2 / length 5
+subset entropy 0.9709505941661296=-log(0.4)
+
+Sunny
+proportion -> 0.3 = 6/20 * 
+count 4 / length 6
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 2 / length 6
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+
+Windy
+proportion -> 0.2 = 4/20 * 
+count 3 / length 4
+subset entropy 0.31127812431486335=-log(0.75)
+count 1 / length 4
+subset entropy 0.8112781241705938=-log(0.25)
+
+Rainy
+proportion -> 0.25 = 5/20 * 
+count 3 / length 5
+subset entropy 0.4421793563554542=-log(0.6)
+count 2 / length 5
+subset entropy 0.9709505941661296=-log(0.4)
+parent entropy: 0.9999999997114609, weighted entropy: 0.9232196720469688
+
+information gain for attribute Enhanced By Weather: 0.07678032766449217
+
+
+Type1 Fighting
+       Type1  Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+0   Fighting   None    Mid     Low     Mid       Yes           No              Cloudy                   No
+18  Fighting  Steel    Mid     Mid     Mid       Yes           No              Cloudy                   No
+Type1 Normal
+    Type1 Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+1  Normal  None    Low     Mid    High        No           No               Sunny                   No
+Type1 Rock
+  Type1 Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+2  Rock  Dark    Mid    High     Mid        No          Yes               Sunny                  Yes
+Type1 Ghost
+   Type1   Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+3  Ghost  Poison   High     Mid     Low        No          Yes              Cloudy                  Yes
+Type1 Psychic
+     Type1  Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+4  Psychic   None   High     Mid     Low        No          Yes               Sunny                   No
+8  Psychic  Fairy    Mid     Mid     Mid        No          Yes               Rainy                  Yes
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+None
+proportion -> 0.5 = 1/2 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Fairy
+proportion -> 0.5 = 1/2 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+parent entropy: 0.9999999997114609, weighted entropy: -1.4426951601859516e-10
+
+information gain for attribute Type2: 0.9999999998557304
+
+
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+High
+proportion -> 0.5 = 1/2 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Mid
+proportion -> 0.5 = 1/2 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+parent entropy: 0.9999999997114609, weighted entropy: -1.4426951601859516e-10
+
+information gain for attribute Attack: 0.9999999998557304
+
+
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+Mid
+proportion -> 1.0 = 2/2 * 
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+parent entropy: 0.9999999997114609, weighted entropy: 0.9999999997114609
+
+information gain for attribute Defense: 0.0
+
+
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+Low
+proportion -> 0.5 = 1/2 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Mid
+proportion -> 0.5 = 1/2 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+parent entropy: 0.9999999997114609, weighted entropy: -1.4426951601859516e-10
+
+information gain for attribute Stamina: 0.9999999998557304
+
+
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+No
+proportion -> 1.0 = 2/2 * 
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+parent entropy: 0.9999999997114609, weighted entropy: 0.9999999997114609
+
+information gain for attribute Is Shadow: 0.0
+
+
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+Yes
+proportion -> 1.0 = 2/2 * 
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+parent entropy: 0.9999999997114609, weighted entropy: 0.9999999997114609
+
+information gain for attribute Has Mega Evo: 0.0
+
+
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+Sunny
+proportion -> 0.5 = 1/2 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Rainy
+proportion -> 0.5 = 1/2 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+parent entropy: 0.9999999997114609, weighted entropy: -1.4426951601859516e-10
+
+information gain for attribute Enhanced By Weather: 0.9999999998557304
+
+
+Type2 None
+     Type1 Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+4  Psychic  None   High     Mid     Low        No          Yes               Sunny                   No
+Type2 Fairy
+     Type1  Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+8  Psychic  Fairy    Mid     Mid     Mid        No          Yes               Rainy                  Yes
+Type1 Dragon
+     Type1   Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+5   Dragon  Flying   High     Mid     Mid        No          Yes               Windy                  Yes
+15  Dragon  Flying    Mid    High     Mid        No          Yes               Windy                   No
+16  Dragon    Dark    Mid     Mid     Mid        No           No               Windy                  Yes
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+
+Flying
+proportion -> 0.6666666666666666 = 2/3 * 
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+Dark
+proportion -> 0.3333333333333333 = 1/3 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+parent entropy: 0.9182958337659504, weighted entropy: 0.6666666664262174
+
+information gain for attribute Type2: 0.25162916733973295
+
+
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+
+High
+proportion -> 0.3333333333333333 = 1/3 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+Mid
+proportion -> 0.6666666666666666 = 2/3 * 
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+parent entropy: 0.9182958337659504, weighted entropy: 0.6666666664262174
+
+information gain for attribute Attack: 0.25162916733973295
+
+
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+
+Mid
+proportion -> 0.6666666666666666 = 2/3 * 
+count 2 / length 2
+subset entropy -1.4426951601859516e-10=-log(1.0)
+
+High
+proportion -> 0.3333333333333333 = 1/3 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+parent entropy: 0.9182958337659504, weighted entropy: -1.4426951601859514e-10
+
+information gain for attribute Defense: 0.9182958339102198
+
+
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+
+Mid
+proportion -> 1.0 = 3/3 * 
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+parent entropy: 0.9182958337659504, weighted entropy: 0.9182958337659504
+
+information gain for attribute Stamina: 0.0
+
+
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+
+No
+proportion -> 1.0 = 3/3 * 
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+parent entropy: 0.9182958337659504, weighted entropy: 0.9182958337659504
+
+information gain for attribute Is Shadow: 0.0
+
+
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+
+Yes
+proportion -> 0.6666666666666666 = 2/3 * 
+count 1 / length 2
+subset entropy 0.49999999985573046=-log(0.5)
+count 1 / length 2
+subset entropy 0.9999999997114609=-log(0.5)
+
+No
+proportion -> 0.3333333333333333 = 1/3 * 
+count 1 / length 1
+subset entropy -1.4426951601859516e-10=-log(1.0)
+parent entropy: 0.9182958337659504, weighted entropy: 0.6666666664262174
+
+information gain for attribute Has Mega Evo: 0.25162916733973295
+
+
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+
+Windy
+proportion -> 1.0 = 3/3 * 
+count 2 / length 3
+subset entropy 0.3899750003365013=-log(0.6666666666666666)
+count 1 / length 3
+subset entropy 0.9182958337659504=-log(0.3333333333333333)
+parent entropy: 0.9182958337659504, weighted entropy: 0.9182958337659504
+
+information gain for attribute Enhanced By Weather: 0.0
+
+
+Defense Mid
+     Type1   Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+5   Dragon  Flying   High     Mid     Mid        No          Yes               Windy                  Yes
+16  Dragon    Dark    Mid     Mid     Mid        No           No               Windy                  Yes
+Defense High
+     Type1   Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+15  Dragon  Flying    Mid    High     Mid        No          Yes               Windy                   No
+Type1 Grass
+   Type1   Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+6  Grass  Poison    Low     Mid     Mid       Yes           No               Rainy                   No
+Type1 Fire
+   Type1     Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+7   Fire    Flying    Mid     Mid     Mid       Yes           No               Sunny                   No
+13  Fire  Fighting    Mid     Mid     Mid        No          Yes               Sunny                   No
+Type1 Ground
+    Type1 Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+9  Ground  Dark    Mid     Low     Mid       Yes           No               Sunny                  Yes
+Type1 Bug
+   Type1  Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+10   Bug  Steel    Mid    High     Mid        No          Yes               Rainy                  Yes
+Type1 Dark
+   Type1   Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+11  Dark     Ice    Mid     Mid     Mid       Yes           No               Rainy                  Yes
+12  Dark  Flying    Mid     Low     Mid       Yes           No               Windy                  Yes
+19  Dark   Ghost    Mid     Mid     Mid        No          Yes              Cloudy                  Yes
+Type1 Water
+    Type1   Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+14  Water  Ground    Mid     Mid     Mid        No          Yes               Rainy                   No
+Type1 Steel
+    Type1    Type2 Attack Defense Stamina Is Shadow Has Mega Evo Enhanced By Weather Good For Mewtwo Raid
+17  Steel  Psychic    Mid    High     Mid        No          Yes              Cloudy                   No
+{'Type1': {'Fighting': 'No', 'Normal': 'No', 'Rock': 'Yes', 'Ghost': 'Yes', 'Psychic': {'Type2': {'None': 'No', 'Fairy': 'Yes'}}, 'Dragon': {'Defense': {'Mid': 'Yes', 'High': 'No'}}, 'Grass': 'No', 'Fire': 'No', 'Ground': 'Yes', 'Bug': 'Yes', 'Dark': 'Yes', 'Water': 'No', 'Steel': 'No'}}
